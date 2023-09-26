@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boxshadow{
+    box-shadow: -2px 2px 13px 0px rgba(223, 235, 235, 0.75);
+}
+@media screen and (max-width: 550px){
+    .desktop_navigation{
+        display: none;
+    }
+    .brands_images {
+        display: none;
+    }
+}
